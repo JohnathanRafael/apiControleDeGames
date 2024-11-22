@@ -6,6 +6,10 @@ Nessa API é utilizado o MongoDB como banco de dados, e o prisma como ORM (Objec
 
 ## Comandos 
 
+`npm run dev`
+
+Para inicar o servidor
+
 `npm init -y`
 
 Inicia o projeto com o package.json
@@ -24,11 +28,7 @@ Para criar o arquivo de configurações tsconfig.json <br>
 
 Para converter código TypeScript para JavaScript e executar no Node.js de forma automatizada
 
-`npm run dev`
-
-Para inicar o servidor
-
-`npm install fastify`
+`npm install fastify @fastify/cors`
 
 Para instalar o framework web Fastify
 
